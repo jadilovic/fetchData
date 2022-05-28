@@ -6,13 +6,12 @@ const getPost = (id) => {
 	console.log(id);
 	const fetchedData = async () => {
 		try {
-			const data = await fetch('http://localhost:3000/posts');
+			const data = await fetch('http://localhost:3000/posts/' + id);
 			if (!data.ok) {
 				throw Error('no data available');
 			}
-			const posts = await data.json();
-			const filteredPost = posts.filter((post) => post.id === Number(id));
-			post.value = filteredPost[0];
+			post.value = await data.json();
+			// const filteredPost = posts.filter((post) => post.id === Number(id));
 			console.log(post.value);
 		} catch (error) {
 			errorMsg.value = error.message;
