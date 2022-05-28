@@ -1,0 +1,28 @@
+{
+	"posts": [
+		{
+			"title": "boby",
+			"body": "my dog loremipsum ddff dfdfsdf dfdsdf dddf ddfdf dddf ddfd ddffd ddfdf",
+			"id": 1,
+			"tags": ["helo", "ther", "what", "dog"]
+		},
+		{
+			"title": "cuni",
+			"body": "my cat",
+			"id": 2,
+			"tags": ["helo", "ther", "what", "dog"]
+		},
+		{
+			"title": "aki",
+			"body": "my monkey",
+			"id": 3,
+			"tags": ["helo", "ther", "what", "dog"]
+		},
+		{
+			"title": "adi",
+			"body": "my girafe",
+			"id": 4,
+			"tags": ["helo", "ther", "what", "dog"]
+		}
+	]
+}
